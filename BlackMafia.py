@@ -602,7 +602,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(10)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
